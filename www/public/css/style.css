@@ -1,0 +1,112 @@
+
+body
+{
+	background-image: url("../images/mainPageWall.png");
+    background-size:     cover;                      /* rozciagniecie tla*/
+    background-repeat:   no-repeat;
+	font-family: 'Amatic SC', cursive;
+}
+
+#container
+{
+	background-color: white;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	/* to ustawiaj jak chcesz przenikanie*/
+	opacity: 0.75;
+	font-size:24px;
+}
+
+#logo
+{
+	color: black;
+	margin-top: 20px;
+	font-size:44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+#menu
+{
+	background-color: #086067;
+	margin-top :5px;
+	color: #ffffff;
+	padding:10px;
+	opacity: 0.75;
+	word-spacing: 6px;
+}
+
+#topbar
+{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 200px;
+	font-size: 26px;
+}
+
+#topbarL
+{
+	float: left;
+
+
+}
+#topBarR
+{
+	margin-left: 20px;
+	float: left;
+
+}
+
+#sidebar
+{
+	float:left;
+	width: 130px;
+	padding: 20px;
+}
+
+#content
+{
+	float:left;
+	width: 700px;
+	padding: 20px;
+
+}
+#footer
+{
+	margin-top :20px;
+	clear:both;
+}
+
+.option
+{
+	margin-bottom :5px;
+	float:left;
+	min-width:50px;
+	height: 25px;
+	font-size: 30px;
+	padding:5px;
+	border-right:  2px solid black;
+}
+
+.optionL
+{
+	font-size: 26px;
+	border-bottom: 2px dotted black;
+}
+
+.optionL:hover
+{
+	background-color: white;
+	opacity: 0.5;
+}
+
+.option:hover
+{
+	background-color: black;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+
